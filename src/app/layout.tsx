@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import RainbowKitProvider from "@/provider/rainbowkit-provider";
+// import RainbowKitProvider from "@/provider/rainbowkit-provider";
 
 export const metadata: Metadata = {
   title: "Buy or Create Your NFTs",
@@ -15,9 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-primary antialiased`}>
-        <RainbowKitProvider>{children}</RainbowKitProvider>
-      </body>
+      <body className={`font-primary antialiased`}>{children}</body>
     </html>
   );
 }
