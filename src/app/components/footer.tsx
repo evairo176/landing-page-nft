@@ -2,9 +2,7 @@ import React from "react";
 import Logo from "./frontend/logo";
 import Image from "next/image";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="pt-[3rem] pb-[5rem] bg-blue-900">
       <div className="w-[80%] mx-auto border-b-[1.2px] pb-[2rem] border-b-slate-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[3rem]">

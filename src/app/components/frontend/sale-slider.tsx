@@ -20,9 +20,8 @@ const responsive = {
     slidesToSlide: 1, // optional, default to 1.
   },
 };
-type Props = {};
 
-const SaleSlider = (props: Props) => {
+const SaleSlider = () => {
   return (
     <Carousel
       itemClass="item"

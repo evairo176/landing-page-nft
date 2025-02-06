@@ -1,10 +1,10 @@
-import { RocketLaunchIcon } from "@heroicons/react/16/solid";
 import React from "react";
 
 type BecomeCreatorCardProps = {
   title: string;
   description: string;
   buttonTitle: string;
+  /* eslint-disable  @typescript-eslint/no-explicit-any */
   icon: any;
   iconColor?: string;
   delay?: string;

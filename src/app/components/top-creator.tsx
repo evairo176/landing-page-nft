@@ -2,9 +2,7 @@ import React from "react";
 import HeadingMini from "./frontend/heading-mini";
 import CreatorCard from "./frontend/creator-card";
 
-type Props = {};
-
-const TopCreator = (props: Props) => {
+const TopCreator = () => {
   return (
     <div className="pt-[3rem] pb-[5rem] bg-blue-950">
       <div className="flex items-center justify-center flex-col">

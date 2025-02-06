@@ -2,9 +2,7 @@ import React from "react";
 import HeadingMini from "./frontend/heading-mini";
 import SaleSlider from "./frontend/sale-slider";
 
-type Props = {};
-
-const LiveSales = (props: Props) => {
+const LiveSales = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-blue-900">
       <div className="flex items-center justify-center flex-col">

@@ -2,9 +2,7 @@ import React from "react";
 import HeadingMini from "./frontend/heading-mini";
 import NftCard from "./frontend/nft-card";
 
-type Props = {};
-
-const PopularNft = (props: Props) => {
+const PopularNft = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-blue-950">
       <div className="flex items-center justify-center flex-col">

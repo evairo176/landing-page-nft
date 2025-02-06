@@ -3,9 +3,7 @@ import React from "react";
 import Button from "./frontend/button";
 import HeadingMini from "./frontend/heading-mini";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div className="pt-[5rem] pb-[3rem] bg-blue-950">
       <div className="w-[80%] mx-auto grid grid-cols-1  items-center xl:grid-cols-2 gap-[3rem]">
@@ -33,7 +31,7 @@ const About = (props: Props) => {
           <p className="text-[15px] md:text-[17px] mt-[1rem] mb-[1rem] text-white opacity-80 text-justify">
             Step into the world of rare and exclusive digital assets! Explore a
             vast collection of unique NFTs, from digital art and music to
-            virtual real estate and gaming items. Whether you're a passionate
+            virtual real estate and gaming items. Whether you are a passionate
             collector or an investor, finding and owning rare NFTs can unlock
             exciting opportunities.
           </p>

@@ -6,9 +6,7 @@ import {
 import React from "react";
 import Logo from "./frontend/logo";
 
-type Props = {};
-
-const Nav = (props: Props) => {
+const Nav = () => {
   return (
     <div className="h-[12vh] bg-[#111D5e]">
       <div className="w-[90%] flex items-center h-[100%] justify-between mx-auto">
