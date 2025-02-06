@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
           <h1 className="text-[30px] md:text-[40px] lg:text-[50px] leading-[2rem] sm:leading-[4rem] text-white">
             Sell Your Nfts & Earn Money
           </h1>
-          <p className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px]">
+          <p className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px] text-justify">
             In the ever-evolving digital economy, NFTs (Non-Fungible Tokens)
             offer a groundbreaking way to monetize your creativity. Whether
             you're an artist, musician, game developer, or digital creator,
