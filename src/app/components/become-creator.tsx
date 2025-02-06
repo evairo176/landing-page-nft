@@ -15,7 +15,10 @@ const BecomeCreator = (props: Props) => {
   return (
     <div className="pb-[3rem] pt-[5rem] bg-blue-900">
       <div className="flex items-center justify-center flex-col">
-        <HeadingMini title="Become A Creator" />
+        <HeadingMini
+          title="Become A Creator"
+          borderColor="before:bg-yellow-300"
+        />
         <h1 className="heading__primary">
           Create and <span className="text-yellow-300">Sell</span> Your NFTs
         </h1>

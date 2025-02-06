@@ -4,6 +4,7 @@ import {
   UserIcon,
 } from "@heroicons/react/16/solid";
 import React from "react";
+import Logo from "./frontend/logo";
 
 type Props = {};
 
@@ -11,9 +12,7 @@ const Nav = (props: Props) => {
   return (
     <div className="h-[12vh] bg-[#111D5e]">
       <div className="w-[90%] flex items-center h-[100%] justify-between mx-auto">
-        <h1 className="text-[20px] sm:text-[30px] text-white">
-          Nf <span className="text-rose-300">tf</span>y
-        </h1>
+        <Logo description="" email="" phone="" />
         <div className="flex items-center space-x-4">
           <div className="h-[40%] hidden md:block relative text-black p-2 bg-gray-100 rounded-lg">
             <input

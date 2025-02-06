@@ -22,10 +22,12 @@ const About = (props: Props) => {
           />
         </div>
         <div>
-          <HeadingMini title="About Us" />
+          <HeadingMini title="About Us" borderColor="before:bg-yellow-300" />
           <h1 className="heading__primary">
-            Discover More Collect and Sell Rare NFTs
+            Discover More{" "}
+            <span className="text-yellow-300">Collect and Sell</span> Rare NFTs
           </h1>
+          <h1 className="heading__primary"></h1>
           <p className="text-[15px] md:text-[17px] mt-[1rem] mb-[1rem] text-white opacity-80 text-justify">
             Step into the world of rare and exclusive digital assets! Explore a
             vast collection of unique NFTs, from digital art and music to
