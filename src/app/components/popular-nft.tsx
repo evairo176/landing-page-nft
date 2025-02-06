@@ -20,7 +20,6 @@ const PopularNft = () => {
           price={3.25}
         />
         <NftCard
-          delay="100"
           like={15}
           image="/images/nft2.svg"
           title="Meata Forted"
@@ -28,7 +27,6 @@ const PopularNft = () => {
           price={4.25}
         />
         <NftCard
-          delay="200"
           like={9}
           image="/images/nft3.svg"
           title="Forted"
@@ -36,7 +34,6 @@ const PopularNft = () => {
           price={5.25}
         />
         <NftCard
-          delay="300"
           like={3}
           image="/images/nft4.svg"
           title="Forted Eastern"
@@ -44,7 +41,6 @@ const PopularNft = () => {
           price={7.25}
         />
         <NftCard
-          delay="400"
           like={11}
           image="/images/nft5.svg"
           title="Eastern"
@@ -58,6 +54,29 @@ const PopularNft = () => {
           title="Eastern"
           author="Dicki Prasetya"
           price={1.45}
+        />
+        <NftCard
+          like={25}
+          image="/images/nft3.svg"
+          title="Eastern Wings"
+          author="Dicki Prasetya"
+          price={7.45}
+        />
+        <NftCard
+          like={39}
+          image="/images/nft3.svg"
+          title="Wings"
+          author="Dicki Prasetya"
+          price={5.45}
+        />
+
+        <NftCard
+          delay="800"
+          like={39}
+          image="/images/nft3.svg"
+          title="Wings Fly"
+          author="Dicki Prasetya"
+          price={7.5}
         />
       </div>
     </div>

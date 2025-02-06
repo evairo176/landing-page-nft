@@ -1,6 +1,7 @@
 import { HeartIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 type NftCardProps = {
   image: string;
@@ -20,14 +21,21 @@ const NftCard = ({
   price,
   like,
   lastSale,
-  delay = "",
-  aosType = "fade-up",
 }: NftCardProps) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
-    <div
-      data-aos-delay={`${delay}`}
-      data-aos={`${aosType}`}
-      data-aos-anchor-placement="top-center"
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgess,
+        opacity: opacityProgess,
+      }}
       className="p-4 m-2 bg-white rounded-lg bg-opacity-15 relative"
     >
       <div className="absolute top-0 right-0 flex items-center justify-center">
@@ -65,7 +73,7 @@ const NftCard = ({
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

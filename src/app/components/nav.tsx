@@ -5,6 +5,7 @@ import {
 } from "@heroicons/react/16/solid";
 import React from "react";
 import Logo from "./frontend/logo";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Nav = () => {
   return (
@@ -36,9 +37,10 @@ const Nav = () => {
               4
             </span>
           </div>
-          <button className="px-6 py-2 text-[13px] sm:text-[16px] sm:px-8 sm:py-3 hover:bg-blue-800 transition-all duration-200 bg-blue-600 text-white rounded-3xl">
+          <ConnectButton />
+          {/* <button className="px-6 py-2 text-[13px] sm:text-[16px] sm:px-8 sm:py-3 hover:bg-blue-800 transition-all duration-200 bg-blue-600 text-white rounded-3xl">
             Connect Wallet
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
