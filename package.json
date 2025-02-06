@@ -10,11 +10,15 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@rainbow-me/rainbowkit": "^2.2.3",
+    "@tanstack/react-query": "^5.66.0",
     "aos": "^3.0.0-beta.6",
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-multi-carousel": "^2.8.5"
+    "react-multi-carousel": "^2.8.5",
+    "viem": "^2.22.22",
+    "wagmi": "^2.14.10"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
