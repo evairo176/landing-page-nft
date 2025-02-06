@@ -22,6 +22,7 @@ const PopularNft = (props: Props) => {
           price={3.25}
         />
         <NftCard
+          delay="100"
           like={15}
           image="/images/nft2.svg"
           title="Meata Forted"
@@ -29,6 +30,7 @@ const PopularNft = (props: Props) => {
           price={4.25}
         />
         <NftCard
+          delay="200"
           like={9}
           image="/images/nft3.svg"
           title="Forted"
@@ -36,6 +38,7 @@ const PopularNft = (props: Props) => {
           price={5.25}
         />
         <NftCard
+          delay="300"
           like={3}
           image="/images/nft4.svg"
           title="Forted Eastern"
@@ -43,6 +46,7 @@ const PopularNft = (props: Props) => {
           price={7.25}
         />
         <NftCard
+          delay="400"
           like={11}
           image="/images/nft5.svg"
           title="Eastern"
@@ -50,6 +54,7 @@ const PopularNft = (props: Props) => {
           price={1.25}
         />
         <NftCard
+          delay="500"
           like={25}
           image="/images/nft6.svg"
           title="Eastern"

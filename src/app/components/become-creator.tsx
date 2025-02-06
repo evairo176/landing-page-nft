@@ -32,6 +32,7 @@ const BecomeCreator = (props: Props) => {
             with ease."
         />
         <BecomeCreatorCard
+          delay="200"
           icon={ChartPieIcon}
           iconColor="text-green-300"
           buttonTitle="Read More"
@@ -40,6 +41,7 @@ const BecomeCreator = (props: Props) => {
             with ease."
         />
         <BecomeCreatorCard
+          delay="400"
           icon={IdentificationIcon}
           iconColor="text-orange-300"
           buttonTitle="Read More"
@@ -48,6 +50,7 @@ const BecomeCreator = (props: Props) => {
             with ease."
         />
         <BecomeCreatorCard
+          delay="600"
           iconColor="text-cyan-300"
           icon={PresentationChartBarIcon}
           buttonTitle="Read More"

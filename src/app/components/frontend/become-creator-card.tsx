@@ -7,6 +7,7 @@ type BecomeCreatorCardProps = {
   buttonTitle: string;
   icon: any;
   iconColor?: string;
+  delay?: string;
 };
 
 const BecomeCreatorCard = ({
@@ -15,10 +16,14 @@ const BecomeCreatorCard = ({
   buttonTitle,
   icon,
   iconColor = "text-yellow-300",
+  delay = "",
 }: BecomeCreatorCardProps) => {
   const Icon = icon;
   return (
     <div
+      data-aos="fade-right"
+      data-aos-anchor-placement="top-center"
+      data-aos-delay={`${delay}`}
       className="bg-white hover:bg-red-700 transition-all cursor-pointer duration-300 bg-opacity-10
    rounded-md p-4"
     >

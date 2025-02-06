@@ -15,7 +15,7 @@ const Logo = ({
   return (
     <div>
       <h1 className="text-[20px] sm:text-[30px] text-white">
-        Nf<span className="text-rose-300">tf</span>y
+        A<span className="text-rose-300">E</span>
       </h1>
       {description && (
         <p className="text-[14px] text-white opacity-60 text-justify mt-[1rem]">

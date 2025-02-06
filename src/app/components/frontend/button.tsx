@@ -8,6 +8,8 @@ type ButtonProps = {
 const Button = ({ title }: ButtonProps) => {
   return (
     <button
+      data-aos="zoom-in"
+      data-aos-delay="400"
       className="before:ease relative h-12 w-40 overflow-hidden bg-blue-700 text-white font-semibold
          shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right 
          before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-[#da5959] 

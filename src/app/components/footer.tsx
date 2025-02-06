@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./frontend/logo";
+import Image from "next/image";
 
 type Props = {};
 
@@ -43,6 +44,13 @@ const Footer = (props: Props) => {
         <p className="text-[14px] text-white opacity-60">
           &#169; Copyright evairo_dev 2025
         </p>
+        <Image
+          className="object-contain sm:ml-auto"
+          src="/images/pay.svg"
+          alt="payment"
+          width={230}
+          height={230}
+        />
       </div>
     </div>
   );

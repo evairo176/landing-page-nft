@@ -9,10 +9,17 @@ const Hero = (props: Props) => {
     <div className="h-[60vh] sm:h-[88vh] bg-[#090c22] flex flex-col justify-center">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center w-[80%] mx-auto gap-[2rem]">
         <div className="mt-[2rem] sm:mt-0">
-          <h1 className="text-[30px] md:text-[40px] lg:text-[50px] leading-[2rem] sm:leading-[4rem] text-white">
+          <h1
+            data-aos="fade-right"
+            className="text-[30px] md:text-[40px] lg:text-[50px] leading-[2rem] sm:leading-[4rem] text-white"
+          >
             Sell Your Nfts & Earn Money
           </h1>
-          <p className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px] text-justify">
+          <p
+            data-aos="fade-left"
+            data-aos-delay="200"
+            className="mt-[1rem] text-white opacity-80 text-[15px] md:text-[17px] text-justify"
+          >
             In the ever-evolving digital economy, NFTs (Non-Fungible Tokens)
             offer a groundbreaking way to monetize your creativity. Whether
             you're an artist, musician, game developer, or digital creator,
@@ -21,7 +28,11 @@ const Hero = (props: Props) => {
           </p>
           <Button title="Get Started" />
         </div>
-        <div className="hidden sm:block sm:auto lg:mx-0">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="600"
+          className="hidden sm:block sm:auto lg:mx-0"
+        >
           <Image
             src={"/images/hero.png"}
             alt="hero"

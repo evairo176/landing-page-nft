@@ -9,6 +9,8 @@ type NftCardProps = {
   price: number;
   like: number;
   lastSale?: string;
+  delay?: string;
+  aosType?: string;
 };
 
 const NftCard = ({
@@ -18,9 +20,16 @@ const NftCard = ({
   price,
   like,
   lastSale,
+  delay = "",
+  aosType = "fade-up",
 }: NftCardProps) => {
   return (
-    <div className="p-4 m-2 bg-white rounded-lg bg-opacity-15 relative">
+    <div
+      data-aos-delay={`${delay}`}
+      data-aos={`${aosType}`}
+      data-aos-anchor-placement="top-center"
+      className="p-4 m-2 bg-white rounded-lg bg-opacity-15 relative"
+    >
       <div className="absolute top-0 right-0 flex items-center justify-center">
         <span className="absolute text-white text-[14px] opacity-50">
           {like}

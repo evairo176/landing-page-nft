@@ -36,6 +36,7 @@ const SaleSlider = (props: Props) => {
     >
       <div>
         <NftCard
+          aosType="zoom-in"
           like={20}
           image="/images/nft1.svg"
           title="Warrior"
@@ -46,6 +47,7 @@ const SaleSlider = (props: Props) => {
       </div>
       <div>
         <NftCard
+          aosType="zoom-in"
           like={15}
           image="/images/nft2.svg"
           title="Meata Forted"
@@ -56,6 +58,7 @@ const SaleSlider = (props: Props) => {
       </div>
       <div>
         <NftCard
+          aosType="zoom-in"
           like={9}
           image="/images/nft3.svg"
           title="Forted"
@@ -66,6 +69,7 @@ const SaleSlider = (props: Props) => {
       </div>
       <div>
         <NftCard
+          aosType="zoom-in"
           like={3}
           image="/images/nft4.svg"
           title="Forted Eastern"
@@ -76,6 +80,7 @@ const SaleSlider = (props: Props) => {
       </div>
       <div>
         <NftCard
+          aosType="zoom-in"
           like={11}
           image="/images/nft5.svg"
           title="Eastern"
@@ -86,6 +91,7 @@ const SaleSlider = (props: Props) => {
       </div>
       <div>
         <NftCard
+          aosType="zoom-in"
           like={25}
           image="/images/nft6.svg"
           title="Eastern"

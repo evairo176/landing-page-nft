@@ -16,6 +16,7 @@ const Nav = (props: Props) => {
         <div className="flex items-center space-x-4">
           <div className="h-[40%] hidden md:block relative text-black p-2 bg-gray-100 rounded-lg">
             <input
+              placeholder="Explore..."
               type="text"
               className="block outline-none bg-transparent h-[100%] w-[90%]"
             />

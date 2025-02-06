@@ -10,6 +10,8 @@ const About = (props: Props) => {
     <div className="pt-[5rem] pb-[3rem] bg-blue-950">
       <div className="w-[80%] mx-auto grid grid-cols-1  items-center xl:grid-cols-2 gap-[3rem]">
         <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
           className="md:w-[500px] md:h-[600px] w-[80%] h-[80%] border-[3px] flex items-center justify-center
          border-gray-400 rounded-lg"
         >

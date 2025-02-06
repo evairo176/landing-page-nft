@@ -5,11 +5,24 @@ type CreatorCardProps = {
   image: string;
   user: string;
   price: number;
+  delay?: string;
+  aosType?: string;
 };
 
-const CreatorCard = ({ image, user, price }: CreatorCardProps) => {
+const CreatorCard = ({
+  image,
+  user,
+  price,
+  delay,
+  aosType = "zoom-in",
+}: CreatorCardProps) => {
   return (
-    <div className="text-center">
+    <div
+      data-aos-delay={`${delay}`}
+      data-aos={`${aosType}`}
+      data-aos-anchor-placement="top-center"
+      className="text-center"
+    >
       <div className="">
         <Image
           src={image}
